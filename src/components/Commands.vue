@@ -15,24 +15,36 @@
 
         <div class="pt-10">
 
-          <!-- looped commands -->
-          <div v-for="command in commands.music" :key="command" class="transition hover:bg-gray-800 rounded-2xl">
-            <!-- header -->
-            <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16 text-gray-400">
-              <i class="fas fa-plus"></i>
-              <h3> {{ command.name }} </h3>
+
+          <div v-for="(categorie, index) in commandCategories" :key="index">
+
+            <div class="text-white">
+              <h1 style="font-weight: 900;">
+                <span style="font-size: 20px;">{{categorie}}</span>
+              </h1>
             </div>
-            <!-- Content -->
-            <div class="accordion-content px-5 pt-0 overflow-hidden max-h-0 bg-gray-800 text-white rounded-2xl">
-              <p class="leading-6 font-light pl-9 text-justify">
-                {{ command.description }}
-              </p>
-              <button class="rounded-full bg-indigo-600 text-white font-medium font-lg px-6 py-2 my-5 ml-9">Learn more
-              </button>
+
+
+            <!-- looped commands -->
+            <div v-for='command in commands[index]' :key="command"
+                 class="transition hover:bg-gray-800 rounded-2xl mt-2">
+              <!-- header -->
+              <div
+                  class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16 text-gray-400">
+                <i class="fas fa-plus"></i>
+                <h3> {{ command.name }} </h3>
+              </div>
+              <!-- Content -->
+              <div class="accordion-content px-5 pt-0  overflow-hidden max-h-0 bg-gray-800 text-white rounded-2xl">
+                <p class="leading-6 font-light pl-9 text-justify">
+                  {{ command.description }}
+                </p>
+                <button class="rounded-full bg-indigo-600 text-white font-medium font-lg px-6 py-2 my-5 ml-9">Learn more
+                </button>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -44,14 +56,46 @@ export default {
 
   data: () => {
     return {
-      commands: {
-        music: [
+      commandCategories: [
+        "Music Commands",
+        "Activity Commands"
+      ],
+
+      commands: [
+        [
           {
             name: "play",
             description: "Play an song"
-          }
+          },
+          {
+            name: "manager",
+            description: "Play an song"
+          },
+          {
+            name: "filter",
+            description: "Play an song"
+          },
+          {
+            name: "nowplaying",
+            description: "Play an song"
+          },
+          {
+            name: "volume",
+            description: "Play an song"
+          },
+          {
+            name: "queue",
+            description: "Play an song"
+          },
+        ],
+
+        [
+          {
+            name: "betrayal",
+            description: "Play an song"
+          },
         ]
-      }
+      ]
     }
   },
   mounted() {
