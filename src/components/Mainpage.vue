@@ -1,21 +1,24 @@
 <template>
   <div class="bg-gray-900">
+    <div>
+      <vue-particles></vue-particles>
+      <div class="d-flex justify-content-center text-white pt-24">
 
+        <h1 style="font-weight: 900;">
 
-    <div class="d-flex justify-content-center text-white pt-24">
-      <h1 style="font-weight: 900;">
+          <section class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center w-5/12 sm:w-3/12 px-4 ">
+            <img src="bot_logo.png" alt="FireFly-Logo"
+                 class="mx-auto shadow rounded-full max-w-full h-auto align-middle border-none"/>
+          </section>
 
-        <section class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center w-5/12 sm:w-3/12 px-4 ">
-          <img src="bot_logo.png" alt="FireFly-Logo" class="mx-auto shadow rounded-full max-w-full h-auto align-middle border-none" />
-        </section>
-
-        <span style="font-size: 40px;"><span
-            style="color:#5663f7;">FireFly</span> | Ultimate Music Experience</span>
-      </h1>
-    </div>
-    <div class="d-flex justify-content-center subtext">
-      <p style="font-style: italic;font-size: 30px;">The Best Music Bot with the Best, Highest Quality you ever
-        used!</p>
+          <span style="font-size: 40px;"><span
+              style="color:#5663f7;">FireFly</span> | Ultimate Music Experience</span>
+        </h1>
+      </div>
+      <div class="d-flex justify-content-center subtext">
+        <p style="font-style: italic;font-size: 30px;">The Best Music Bot with the Best, Highest Quality you ever
+          used!</p>
+      </div>
     </div>
 
     <div class="container">
@@ -106,6 +109,14 @@ export default {
 </script>
 
 <style scoped>
+
+#particles-js {
+  position: absolute;
+  background-size: cover;
+  overflow-y: hidden;
+  z-index: 0;
+}
+
 .head {
   line-height: 1.3;
   text-align: center;
