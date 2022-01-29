@@ -31,7 +31,8 @@
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+              <a href="#"
+                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
 
               <a href="#features"
                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Features</a>
@@ -39,7 +40,7 @@
               <a href="#commands"
                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Commands</a>
 
-              <a href="#"
+              <a href="https://discord.com/api/oauth2/authorize?client_id=925731507388174367&permissions=8&scope=bot%20applications.commands"
                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Invite</a>
             </div>
           </div>
@@ -48,12 +49,10 @@
           <button type="button"
                   class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
 
-
-            <i class="fa fa-user-plus h-6 w-6" title="Add FireFly to your guild"></i>
-
+            <a href="https://discord.com/api/oauth2/authorize?client_id=925731507388174367&permissions=8&scope=bot%20applications.commands"
+               class="fa fa-user-plus h-6 w-6 hover:text-white" title="Add FireFly to your guild"></a>
 
           </button>
-
         </div>
       </div>
     </div>
@@ -64,7 +63,8 @@
         <div class="px-2 pt-2 pb-3 space-y-1 links">
 
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-          <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+          <a href="#"
+             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
              aria-current="page">Home</a>
 
           <a href="#features"
@@ -73,7 +73,7 @@
           <a href="#commands"
              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Commands</a>
 
-          <a href="#"
+          <a href="https://discord.com/api/oauth2/authorize?client_id=925731507388174367&permissions=8&scope=bot%20applications.commands"
              class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Invite</a>
         </div>
       </li>
@@ -81,6 +81,7 @@
   </nav>
 
 </template>
+
 
 <script>
 import JQuery from 'jquery'
@@ -91,14 +92,8 @@ export default {
   name: 'Header',
   props: {},
   mounted() {
-    /* only execute this script when the document is ready */
     $(document).ready(function () {
-      /* function called when you click of the button */
       $("#mobile_toggle").click(function () {
-
-        console.log("toggle")
-
-        /* this function toggle the visibility of our "li" elements */
         $("li").toggle("slow");
       });
     });
