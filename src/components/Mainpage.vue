@@ -22,8 +22,29 @@
         used!</p>
     </div>
 
-    <div class="container">
-      <div class="row align-items-center mt-5">
+
+  </div>
+
+  <svg class="bg-gray-800" style="fill: rgba(17, 24, 39, 1); transform: rotate(-180deg);"
+       xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+       viewBox="0 0 1440 140">
+
+    <path d="M685.6,52.8C418.7,2.9,170.2,23.9,0,44v96h1440V44C1252.7,66.2,1010,113.4,685.6,52.8z"
+    ></path>
+  </svg>
+
+
+  <div class="bg-gray-800">
+
+    <div class="d-flex justify-content-center text-white">
+      <h1 style="font-weight: 900;">
+
+        <span style="font-size: 40px;">Features</span>
+      </h1>
+    </div>
+
+    <div class="container pt-5">
+      <div class="row align-items-center">
         <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100" src="https://i.imgur.com/4wsUNJm.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
@@ -98,7 +119,6 @@
         </div>
       </div>
     </div>
-
   </div>
 
 </template>

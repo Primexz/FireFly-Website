@@ -20,7 +20,7 @@
 
             <div class="text-white">
               <h1 style="font-weight: 900;">
-                <span style="font-size: 20px;">{{categorie}}</span>
+                <span style="font-size: 20px;">{{ categorie }}</span>
               </h1>
             </div>
 
@@ -58,7 +58,9 @@ export default {
     return {
       commandCategories: [
         "Music Commands",
-        "Activity Commands"
+        "Activity Commands",
+        "Fun Commands",
+        "Other Commands"
       ],
 
       commands: [
@@ -94,8 +96,68 @@ export default {
             name: "betrayal",
             description: "Play an song"
           },
-        ]
-      ]
+          {
+            name: "checkers",
+            description: "Play an song"
+          },
+          {
+            name: "chess",
+            description: "Play an song"
+          },
+          {
+            name: "doodle-crew",
+            description: "Play an song"
+          },
+          {
+            name: "fishington",
+            description: "Play an song"
+          },
+          {
+            name: "letterleague",
+            description: "Play an song"
+          },
+          {
+            name: "poker",
+            description: "Play an song"
+          },
+          {
+            name: "spellcast",
+            description: "Play an song"
+          },
+          {
+            name: "watch-together",
+            description: "Play an song"
+          },
+          {
+            name: "wordsnacks",
+            description: "Play an song"
+          },
+        ],
+        [
+          {
+            name: "ttt",
+            description: "Test"
+          }
+        ],
+          [
+            {
+              name: "help",
+              description: "help"
+            },
+            {
+              name: "avatar",
+              description: "help"
+            },
+            {
+              name: "stats",
+              description: "help"
+            },
+            {
+              name: "shards",
+              description: "help"
+            },
+          ]
+      ],
     }
   },
   mounted() {
