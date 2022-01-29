@@ -43,8 +43,8 @@
                 <h3> {{ command.name }} </h3>
               </div>
               <!-- Content -->
-              <div class="accordion-content px-5 pt-0  overflow-hidden max-h-0 bg-gray-800 text-white rounded-2xl">
-                <p class="leading-6 font-light pl-9 text-justify">
+              <div class="accordion-content sm:px-5 pt-0  overflow-hidden max-h-0 bg-gray-800 text-white rounded-2xl">
+                <p class="leading-6 font-light pl-9 text-justify sm:text-base text-sm">
                   {{ command.description }}
                 </p>
                 <a class="px-6 py-2 my-5 ml-9">
