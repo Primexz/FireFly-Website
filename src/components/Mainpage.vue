@@ -20,6 +20,15 @@
     <div class="d-flex justify-content-center subtext sm:text-3xl text-xl">
       <p style="font-style: italic;">The Best Music Bot with the Best, Highest Quality you ever
         used!</p>
+
+    </div>
+
+    <div class="flex justify-center" style="margin-top: -19em; padding-bottom: 15em">
+      <button style="z-index: 0;"
+              onclick="window.location.href='https://discord.com/api/oauth2/authorize?client_id=925731507388174367&permissions=8&scope=bot%20applications.commands'"
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 mt-100 rounded-full ">
+        Invite me
+      </button>
     </div>
 
 
@@ -45,8 +54,9 @@
 
     <div class="container pt-5">
       <div class="row align-items-center">
-        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100 flex items-center justify-center shadow rounded-2xl" src="images/help_cmd.png"
-                                                               alt=""/></div>
+        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img
+            class="w-100 flex items-center justify-center shadow rounded-2xl" src="images/help_cmd.png"
+            alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
                                                      src="https://cdn.discordapp.com/emojis/850924066517155871.png?v=1"
@@ -64,7 +74,8 @@
 
     <div class="container">
       <div class="row align-items-center mt-5">
-        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100 shadow rounded-2xl" src="images/music_filter.png"
+        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100 shadow rounded-2xl"
+                                                               src="images/music_filter.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
@@ -72,7 +83,8 @@
                                                      alt="" width="30"/>
             <div class="flex-1 text-white">
               <h5>The best music experience with our wide range of music filters!</h5>
-              <p class="text-muted mb-4">We use FFmpeg to give you the best possible audio quality, without lags and delays.</p>
+              <p class="text-muted mb-4">We use FFmpeg to give you the best possible audio quality, without lags and
+                delays.</p>
             </div>
           </div>
         </div>
@@ -82,7 +94,8 @@
 
     <div class="container">
       <div class="row align-items-center mt-5">
-        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100 shadow rounded-2xl" src="images/site_support.png"
+        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100 shadow rounded-2xl"
+                                                               src="images/site_support.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
@@ -90,7 +103,8 @@
                                                      alt="" width="30"/>
             <div class="flex-1 text-white">
               <h5>Spotify, YouTube, Soundcloud ...</h5>
-              <p class="text-muted mb-4">We support music streaming on all major music streaming sites to provide the best possible user experience.</p>
+              <p class="text-muted mb-4">We support music streaming on all major music streaming sites to provide the
+                best possible user experience.</p>
             </div>
           </div>
         </div>
@@ -100,7 +114,8 @@
 
     <div class="container">
       <div class="row align-items-center mt-5">
-        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100 shadow rounded-2xl" src="images/music_mng.png"
+        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100 shadow rounded-2xl"
+                                                               src="images/music_mng.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
@@ -108,7 +123,8 @@
                                                      alt="" width="30"/>
             <div class="flex-1 text-white">
               <h5>Modern Embeds with Button Interactions</h5>
-              <p class="text-muted mb-4">FireFly uses all the new technologies of Discord. This includes <b>slash commands</b>, <b>button interactions</b> and much more.</p>
+              <p class="text-muted mb-4">FireFly uses all the new technologies of Discord. This includes <b>slash
+                commands</b>, <b>button interactions</b> and much more.</p>
             </div>
           </div>
         </div>
