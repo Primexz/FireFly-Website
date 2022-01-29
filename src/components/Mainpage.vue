@@ -6,19 +6,19 @@
 
     <div class="d-flex justify-content-center text-white pt-24">
 
-      <h1 style="font-weight: 900;">
+      <h1 style="font-weight: 900;" class="sm:text-5xl text-3xl text-center">
 
         <section class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center w-5/12 sm:w-3/12 px-4 ">
           <img src="bot_logo.png" alt="FireFly-Logo"
                class="mx-auto shadow rounded-full max-w-full h-auto align-middle border-none"/>
         </section>
 
-        <span style="font-size: 40px;"><span
+        <span><span
             style="color:#5663f7;">FireFly</span> | Ultimate Music Experience</span>
       </h1>
     </div>
-    <div class="d-flex justify-content-center subtext">
-      <p style="font-style: italic;font-size: 30px;">The Best Music Bot with the Best, Highest Quality you ever
+    <div class="d-flex justify-content-center subtext sm:text-3xl text-xl">
+      <p style="font-style: italic;">The Best Music Bot with the Best, Highest Quality you ever
         used!</p>
     </div>
 
@@ -34,7 +34,7 @@
   </svg>
 
 
-  <div class="bg-gray-800">
+  <div class="bg-gray-800" id="features">
 
     <div class="d-flex justify-content-center text-white">
       <h1 style="font-weight: 900;">

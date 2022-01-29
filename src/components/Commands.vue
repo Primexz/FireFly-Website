@@ -1,10 +1,18 @@
 <template>
-  <div class="bg-gray-900">
 
-    <hr style="width: 75%;background-color: #FFFFFF!important;color: #FFFFFF!important;border: 5px solid #FFFFFF!important;border-radius:25px;margin-left: 12%;">
+  <svg class="bg-gray-900" style="fill: rgba(31, 41, 55, 1);
+  ; transform: rotate(-180deg);"
+       xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+       viewBox="0 0 1440 140">
+
+    <path d="M685.6,52.8C418.7,2.9,170.2,23.9,0,44v96h1440V44C1252.7,66.2,1010,113.4,685.6,52.8z"
+    ></path>
+  </svg>
+
+  <div class="bg-gray-900" id="commands">
 
     <div class="w-6/12 mx-auto">
-      <div class="p-10 shadow-sm">
+      <div class="shadow-sm">
 
         <div class="d-flex justify-content-center text-white">
           <h1 style="font-weight: 900;">
