@@ -47,8 +47,8 @@
                 <p class="leading-6 font-light pl-9 text-justify">
                   {{ command.description }}
                 </p>
-                <button class="rounded-full bg-indigo-600 text-white font-medium font-lg px-6 py-2 my-5 ml-9">Learn more
-                </button>
+                <a class="px-6 py-2 my-5 ml-9">
+                </a>
               </div>
             </div>
           </div>
@@ -75,96 +75,96 @@ export default {
         [
           {
             name: "play",
-            description: "Play an song"
+            description: "Add song to music queue"
           },
           {
             name: "manager",
-            description: "Play an song"
+            description: "Manage your current queue"
           },
           {
             name: "filter",
-            description: "Play an song"
+            description: "Manage all music filters/effects"
           },
           {
             name: "nowplaying",
-            description: "Play an song"
+            description: "Get information about the song that is currently playing."
           },
           {
             name: "volume",
-            description: "Play an song"
+            description: "Set the volume of the current song in percent"
           },
           {
             name: "queue",
-            description: "Play an song"
+            description: "Get an overview of the songs that are currently added to the queue."
           },
         ],
 
         [
           {
             name: "betrayal",
-            description: "Play an song"
+            description: 'Create a "betrayal" game!'
           },
           {
             name: "checkers",
-            description: "Play an song"
+            description: 'Create a "checkers" game!'
           },
           {
             name: "chess",
-            description: "Play an song"
+            description: 'Create a "Chess In The Park" game!'
           },
           {
             name: "doodle-crew",
-            description: "Play an song"
+            description: "Create a doodle-crew game! (Game like Skribbl)"
           },
           {
             name: "fishington",
-            description: "Play an song"
+            description: 'Create a "fishington" game!'
           },
           {
             name: "letterleague",
-            description: "Play an song"
+            description: 'Create a "letterleague" game!'
           },
           {
             name: "poker",
-            description: "Play an song"
+            description: 'Create a "poker" game!'
           },
           {
             name: "spellcast",
-            description: "Play an song"
+            description: 'Create a "spellcast" game!'
           },
           {
             name: "watch-together",
-            description: "Play an song"
+            description: 'Create a "watch-together" game!'
           },
           {
             name: "wordsnacks",
-            description: "Play an song"
+            description: 'Create a "wordsnacks" game!'
           },
         ],
         [
           {
             name: "ttt",
-            description: "Test"
+            description: "Play TicTacToe with a teammate"
           }
         ],
-          [
-            {
-              name: "help",
-              description: "help"
-            },
-            {
-              name: "avatar",
-              description: "help"
-            },
-            {
-              name: "stats",
-              description: "help"
-            },
-            {
-              name: "shards",
-              description: "help"
-            },
-          ]
+        [
+          {
+            name: "help",
+            description: 'Get information about all the commands of FireFly.'
+          },
+          {
+            name: "avatar",
+            description: 'Get avatar image & url from an user'
+          },
+          {
+            name: "stats",
+            description: 'Get statistics about FireFly'
+          },
+          {
+            name: "shards",
+            description: "Get an overview of the current shards from FireFly."
+          },
+        ]
       ],
     }
   },

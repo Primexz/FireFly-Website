@@ -45,7 +45,7 @@
 
     <div class="container pt-5">
       <div class="row align-items-center">
-        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100" src="https://i.imgur.com/4wsUNJm.png"
+        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100 shadow rounded-2xl" src="images/help_cmd.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
@@ -66,7 +66,7 @@
 
     <div class="container">
       <div class="row align-items-center mt-5">
-        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100" src="https://i.imgur.com/zoOTxsU.png"
+        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100 shadow rounded-2xl" src="images/music_filter.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
@@ -85,7 +85,7 @@
 
     <div class="container">
       <div class="row align-items-center mt-5">
-        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100" src="https://i.imgur.com/wXwAvIi.png"
+        <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100 shadow rounded-2xl" src="https://miro.medium.com/max/1000/1*IbcfLFZI_T0ajdrJVgNrVg.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
@@ -104,7 +104,7 @@
 
     <div class="container">
       <div class="row align-items-center mt-5">
-        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100" src="https://i.imgur.com/orpW86s.png"
+        <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100 shadow rounded-2xl" src="images/music_mng.png"
                                                                alt=""/></div>
         <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
           <div class="d-flex align-items-start"><img class="me-4"
