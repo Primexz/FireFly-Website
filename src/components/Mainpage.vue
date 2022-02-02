@@ -14,12 +14,11 @@
         </section>
 
         <span><span
-            style="color:#5663f7;">FireFly</span> | Ultimate Music Experience</span>
+            style="color:#5663f7;">FireFly</span> | Incredible Music Experience</span>
       </h1>
     </div>
     <div class="d-flex justify-content-center subtext sm:text-3xl text-xl">
-      <p style="font-style: italic;">The Best Music Bot with the Best, Highest Quality you ever
-        used!</p>
+      <p style="font-style: italic;">The best Discord bot with the highest audio quality you've ever used!</p>
 
     </div>
 
